@@ -1,0 +1,34 @@
+CREATE_IN_PROGRESS DeploymentBucket                   AWS::S3::Bucket            Thu Jan 21 2021 20:32:51 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_IN_PROGRESS AuthRole                           AWS::IAM::Role             Thu Jan 21 2021 20:32:50 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_IN_PROGRESS UnauthRole                         AWS::IAM::Role             Thu Jan 21 2021 20:32:50 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_IN_PROGRESS DeploymentBucket                   AWS::S3::Bucket            Thu Jan 21 2021 20:32:49 GMT+0530 (India Standard Time)
+CREATE_IN_PROGRESS AuthRole                           AWS::IAM::Role             Thu Jan 21 2021 20:32:49 GMT+0530 (India Standard Time)
+CREATE_IN_PROGRESS UnauthRole                         AWS::IAM::Role             Thu Jan 21 2021 20:32:49 GMT+0530 (India Standard Time)
+CREATE_IN_PROGRESS amplify-documentscanner-dev-203242 AWS::CloudFormation::Stack Thu Jan 21 2021 20:32:45 GMT+0530 (India Standard Time) User Initiated
+
+
+CREATE_COMPLETE DeploymentBucket AWS::S3::Bucket Thu Jan 21 2021 20:33:12 GMT+0530 (India Standard Time)
+CREATE_COMPLETE AuthRole         AWS::IAM::Role  Thu Jan 21 2021 20:33:12 GMT+0530 (India Standard Time)
+CREATE_COMPLETE UnauthRole       AWS::IAM::Role  Thu Jan 21 2021 20:33:11 GMT+0530 (India Standard Time)
+
+
+CREATE_COMPLETE amplify-documentscanner-dev-203242 AWS::CloudFormation::Stack Thu Jan 21 2021 20:33:14 GMT+0530 (India Standard Time)
+√ Successfully created initial AWS cloud resources for deployments.
+- Uploading files...
+- Uploading files...
+- Initializing your environment: dev
+√ Initialized provider successfully.
+Initialized your environment successfully.
+
+Your project has been successfully initialized and connected to the cloud!
+
+Some next steps:
+"amplify status" will show you what you've added already and if it's locally configured or deployed
+"amplify add <category>" will allow you to add features like user login or a backend API
+"amplify push" will build all your local backend resources and provision it in the cloud
+"amplify console" to open the Amplify Console and view your project status
+"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+Pro tip:
+Try "amplify add api" to create a backend API and then "amplify publish" to deploy everything
+
